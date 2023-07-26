@@ -9,6 +9,7 @@ import {
   Delete,
   Body,
   Param,
+  NotFoundException,
 } from '@nestjs/common';
 import { UserModelDto } from 'src/dto/user-model.dto';
 
